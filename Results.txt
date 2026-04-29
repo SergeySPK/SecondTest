@@ -1,0 +1,23 @@
+$ git commit -m "Cute cats"
+[main 0584900] Cute cats
+ 1 file changed, 20 insertions(+)
+ create mode 100644 Test_cat.txt
+
+
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 572 bytes | 286.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/SergeySPK/SecondTest.git
+   c1e56a5..0584900  main -> main
